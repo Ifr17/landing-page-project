@@ -3,6 +3,8 @@
     flex-direction: column;
 }
 
+/* Header */
+
 .header-logo {
     display: flex;
     margin: 32px;
@@ -11,4 +13,49 @@
 .header-link {
     display: flex;
     justify-content: flex-end;
+    margin: 12px;
+    gap: 12px;    
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+/* Hero */
+
+.hero {
+    display: flex;
+    margin: 36px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-body {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.hero h1 {
+    margin-bottom: 0;
+}
+
+.hero p {
+    font-size: small;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    background-color: aqua;
+    height: 64px;
+    width: 128px;
+    font-weight: bold;
+}
+
+.hero-image {
+    height: 384px;
+    width: 512px;
 }
