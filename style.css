@@ -107,3 +107,22 @@ a:link {
     text-align: right;
     margin-right: 96px;
 }
+
+/* Signup */
+
+.signup {
+    display: flex;
+    align-items: center;
+}
+
+.signup-text {
+    flex: 1;
+}
+
+.signup button {
+    padding: 8px 24px;
+    font-size: 16px;
+}
+
+/* Footer */
+
