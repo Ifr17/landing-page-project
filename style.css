@@ -1,3 +1,7 @@
+body {
+    background-color: whitesmoke;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -113,6 +117,9 @@ a:link {
 .signup {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 64px 192px;
+    background-color: gold;
 }
 
 .signup-text {
@@ -122,6 +129,7 @@ a:link {
 .signup button {
     padding: 8px 24px;
     font-size: 16px;
+    border-radius: 8px;
 }
 
 /* Footer */
