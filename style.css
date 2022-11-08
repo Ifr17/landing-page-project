@@ -130,6 +130,9 @@ a:link {
     padding: 8px 24px;
     font-size: 16px;
     border-radius: 8px;
+    gap: 512px;
+    margin-left: auto;
+    margin-right: 64px;
 }
 
 /* Footer */
