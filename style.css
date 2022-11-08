@@ -71,6 +71,12 @@ a:link {
     align-items: center;
 }
 
+.content-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .content-info {
     display: flex;
     justify-content: center;
@@ -82,4 +88,22 @@ a:link {
 .content-info img {
     width: 256px;
     height: 256px;
+}
+
+/* Quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    padding: 0 200px;
+}
+
+.quote-main {
+    text-align: center;
+}
+
+.quote-author {
+    text-align: right;
+    margin-right: 96px;
 }
