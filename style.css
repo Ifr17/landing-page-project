@@ -46,6 +46,7 @@ a:link {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin: 64px;
 }
 
 .hero h1 {
@@ -127,6 +128,7 @@ a:link {
 
 .signup-text {
     flex: 1;
+    margin: 64px;
 }
 
 .signup button {
